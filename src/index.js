@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 
+const element = <h1>Amit, Welcome to New React App</h1>
 ReactDOM.render(
-    <h1>Amit, Welcome to New React App</h1>,
+    element,
     document.getElementById('root')
 );
